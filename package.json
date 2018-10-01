@@ -18,5 +18,14 @@
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
         "vue": "^2.5.7"
+    },
+    "env": {
+        "APP_ENV": "iatu-student",
+        "DB_CONNECTION": "pgsql",
+        "DB_DATABASE": "${DB_DATABASE}",
+        "DB_HOST": "${DB_HOST}",
+        "DB_PORT": "${DB_PORT}",
+        "DB_PASSWORD": "${DB_PASSWORD}",
+        "DB_USERNAME": "${DB_USERNAME}",
     }
 }
