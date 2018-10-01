@@ -6,6 +6,11 @@
   },
   "env": {
     "APP_ENV": "iatu-student",
-    "DB_CONNECTION": "pgsql"
+    "DB_CONNECTION": "pgsql",
+    "DB_DATABASE": "${DB_DATABASE}",
+    "DB_HOST": "${DB_HOST}",
+    "DB_PORT": "${DB_PORT}",
+    "DB_PASSWORD": "${DB_PASSWORD}",
+    "DB_USERNAME": "${DB_USERNAME}",
   }
 }
