@@ -1,0 +1,11 @@
+{
+  "name": "Laravel Project",
+  "image": "heroku/php",
+  "scripts": {
+    "postdeploy": "php artisan migrate --force"
+  },
+  "env": {
+    "APP_ENV": "iatu-student",
+    "DB_CONNECTION": "pgsql"
+  }
+}
